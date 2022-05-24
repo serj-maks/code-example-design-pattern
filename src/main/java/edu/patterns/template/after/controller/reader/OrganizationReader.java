@@ -1,4 +1,6 @@
-package edu.patterns.template.after;
+package edu.patterns.template.after.controller.reader;
+
+import edu.patterns.template.after.model.Organization;
 
 import java.io.File;
 

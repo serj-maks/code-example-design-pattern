@@ -1,4 +1,4 @@
-package edu.patterns.template.after;
+package edu.patterns.template.after.controller.reader;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -20,15 +20,12 @@ public abstract class AbstractReader<T> {
             br = new BufferedReader(new FileReader(file));
             List<T> result = new ArrayList<>();
             String line;
-
             while ((line = br.readLine()) != null) {
                 String[] details = line.split(",");
-
                 T entity = map(details);
                 result.add(entity);
             }
             return result;
-
         } catch (IOException e) {
             throw new RuntimeException("File reading exception", e);
         } finally {

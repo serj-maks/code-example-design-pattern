@@ -1,4 +1,4 @@
-package edu.patterns.proxy.before;
+package edu.patterns.proxy.ex01.before;
 
 public class Account {
     private final long id;

@@ -1,5 +1,11 @@
 package edu.patterns.template.after;
 
+import edu.patterns.template.after.controller.reader.AbstractReader;
+import edu.patterns.template.after.controller.reader.OrganizationReader;
+import edu.patterns.template.after.controller.reader.PersonReader;
+import edu.patterns.template.after.model.Organization;
+import edu.patterns.template.after.model.Person;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.List;

@@ -1,9 +1,9 @@
-package edu.patterns.template.after;
+package edu.patterns.template.after.model;
 
-public class Person {
+public class Organization {
     private String name;
     private String phone;
-    private int score;
+    private int organizationId;
 
     public String getName() {
         return name;
@@ -21,20 +21,20 @@ public class Person {
         this.phone = phone;
     }
 
-    public int getScore() {
-        return score;
+    public int getOrganizationId() {
+        return organizationId;
     }
 
-    public void setScore(int score) {
-        this.score = score;
+    public void setOrganizationId(int organizationId) {
+        this.organizationId = organizationId;
     }
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Organization{" +
                 "name='" + name + '\'' +
                 ", phone='" + phone + '\'' +
-                ", score=" + score +
+                ", organizationId=" + organizationId +
                 "}\n";
     }
 }

@@ -8,6 +8,7 @@ public class MyArray {
 
     public MyArray(int capacity) {
         array = new int[capacity];
+        // default sort
         this.sortStrategy = new BubbleSortStrategy();
     }
 

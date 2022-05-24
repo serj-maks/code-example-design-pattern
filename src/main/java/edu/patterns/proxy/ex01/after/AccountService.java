@@ -1,4 +1,4 @@
-package edu.patterns.proxy.after;
+package edu.patterns.proxy.ex01.after;
 
 public interface AccountService {
 
