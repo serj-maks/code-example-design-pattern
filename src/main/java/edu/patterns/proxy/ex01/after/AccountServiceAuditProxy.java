@@ -3,6 +3,7 @@ package edu.patterns.proxy.ex01.after;
 import java.util.Date;
 
 public class AccountServiceAuditProxy implements AccountService {
+
     private final AccountService accountService;
 
     public AccountServiceAuditProxy(AccountService accountService) {

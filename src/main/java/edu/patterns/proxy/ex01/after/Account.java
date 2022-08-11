@@ -1,6 +1,7 @@
 package edu.patterns.proxy.ex01.after;
 
 public class Account {
+
     private final long id;
     private final String accountNumber;
 
