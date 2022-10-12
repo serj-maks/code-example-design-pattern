@@ -9,6 +9,7 @@ public class Cache {
 
     public MessagingService getService(String serviceName) {
         //retrieve from the list
+        return null;
     }
 
     public void addService(MessagingService newService) {
