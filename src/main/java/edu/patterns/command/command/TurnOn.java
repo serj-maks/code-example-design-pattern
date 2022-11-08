@@ -14,14 +14,4 @@ public class TurnOn implements Command {
     public void execute() {
         this.bulb.turnOn();
     }
-
-    @Override
-    public void undo() {
-        this.bulb.turnOff();
-    }
-
-    @Override
-    public void redo() {
-        execute();
-    }
 }
